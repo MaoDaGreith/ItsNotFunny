@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>This is going to be the first Slice</title>
+</head>
+<body>
+
+<h1>Using slices</h1>
+<p>My first slice.</p>
+<ul>
+    {{range $index, $value := .}}
+    <li> {{$index}} - {{$value}} </li>
+    {{end}}
+</ul>
+</body>
+</html>

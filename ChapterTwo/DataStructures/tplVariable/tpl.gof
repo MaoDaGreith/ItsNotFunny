@@ -1,0 +1,4 @@
+the goddamn variable
+{{$medusa := .}}
+
+So the following is going to be {{$medusa}}
